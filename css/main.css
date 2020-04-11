@@ -1,0 +1,102 @@
+body{
+    border-top: 3px solid #0097e6;
+}
+
+.condado{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.bodega{
+	border-radius: 5px;
+}
+.bodega .card{
+	min-height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border: 3px solid #F9F9F9;
+	color: white;
+	border-radius: 8px;
+}
+.bodega .card:hover .card-name{
+
+}
+.card{
+	overflow: hidden;
+}
+h4.card-name{
+	font-weight: 600;
+}
+.card .img-holder{
+	width: 100%;
+	min-height: 100%;
+	background-size: cover;
+	transition: .3s;
+}
+.card .img-holder:hover{
+	transform: scale(1.1);
+	transition: .3s;
+}
+
+.card .card-name{
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+.card .card-address{
+}
+
+.card .card-contact{
+	
+}
+
+.contact-btn{
+	height: 35px;
+	border-radius: 3px;
+	border: 1px solid #EEE;
+	background: #F0F0F0;
+}
+
+.card-footer{
+	bottom: 0;
+	border: none;
+	background: rgb(0,0,0);
+	background: linear-gradient(0deg, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.85) 59%, rgba(0,0,0,0) 100%);
+}
+.category{
+	text-align: center;
+	font-size: .8rem;
+	cursor: pointer;
+}
+.category .emoji-circle{
+	margin: 0 auto;
+	width: 60px;
+	height: 60px;
+	line-height: 1.6rem;
+	border-radius: 50%;
+	border: 1px solid #EEE;
+	transition: .2s;
+}
+
+.category:hover .emoji-circle{
+	border: 2px solid #111;
+	transform: scale(1.05);
+	transform: rotate(360deg);
+	transition: .2s;
+}
+
+footer{
+	text-align: center;
+}
+footer .footer-rainbow{
+    height: 4px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
+}
+
+.card-title{
+	background-size: cover;
+}
